@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+    height: auto;
+}
+.Main_Container{
+    padding: 10vmax;
+    background: url("https://dmxg5wxfqgb4u.cloudfront.net/styles/background_image_xl/s3/2021-07/092521-ufc-266-volkanovski-vs-ortega-temp-hero.jpg?h=d1cb525d&itok=MDlakyMJ");
+    background-repeat: no-repeat;
+    background-position: center center;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.Menu_Container{
+    padding: 10px;
+    background: whitesmoke;
+    min-width: 990px;
+}
+
+/* menu container media queries */
+
+.List_Container {
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: initial;
+    justify-content: center;
+    list-style-type: none;
+    background: whitesmoke;
+ }
+
+.List_Container_left {
+   padding-bottom: 5px; 
+   margin: 1vw;
+   
+}
+
+.List_Container_center{
+   padding-bottom: 5px;
+   margin: 1vw;
+   margin-left: 10vw;
+   margin-right: 10vw;
+}
+
+.List_Container_right {
+    padding-bottom: 5px;
+    margin: 1vw;
+ }
